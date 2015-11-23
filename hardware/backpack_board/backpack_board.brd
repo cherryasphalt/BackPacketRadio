@@ -466,6 +466,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="4.826" y1="2.286" x2="5.334" y2="2.794" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 </package>
+<package name="1X02">
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-DiscreteSemi">
@@ -514,6 +536,28 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <pad name="P$2" x="5.08" y="0" drill="0.9" diameter="1.8796"/>
 <text x="-3.175" y="1.905" size="0.8128" layer="25" font="vector" ratio="15">&gt;Name</text>
 <text x="-2.286" y="-0.381" size="0.8128" layer="21" font="vector" ratio="15">&gt;Value</text>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Electromechanical">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find anything that moves- switches, relays, buttons, potentiometers. Also, anything that goes on a board but isn't electrical in nature- screws, standoffs, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SWITCH-SPDT">
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
+<text x="-3.81" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -698,7 +742,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <elements>
 <element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="1uF" x="27.94" y="34.29" rot="R180"/>
 <element name="C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="100nF" x="27.94" y="36.83" rot="R180"/>
-<element name="C2" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="4.7uF" x="10.16" y="36.83"/>
+<element name="C2" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="4.7uF" x="11.43" y="34.29"/>
 <element name="TX" library="SparkFun-LED" package="LED3MM" value="" x="10.16" y="50.8" smashed="yes">
 <attribute name="VALUE" x="12.065" y="49.149" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -719,7 +763,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <attribute name="PROD_ID" value="CONN-11566" x="8.89" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="5.715" y="69.85" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="MOSFET-NCHANNEL2N7000" x="10.16" y="43.18" smashed="yes"/>
+<element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="MOSFET-NCHANNEL2N7000" x="11.43" y="43.18" smashed="yes" rot="R270"/>
 <element name="R9" library="SparkFun-Passives" package="AXIAL-0.4" value="10K" x="26.67" y="45.72" smashed="yes">
 <attribute name="VALUE" x="26.924" y="45.339" size="0.8128" layer="21" font="vector" ratio="15"/>
 </element>
@@ -754,26 +798,30 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <attribute name="VALUE" x="26.924" y="52.959" size="0.8128" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="26.67" y="69.85"/>
+<element name="POWER" library="SparkFun-Connectors" package="1X02" value="" x="6.35" y="72.39" smashed="yes" rot="R90">
+<attribute name="VALUE" x="9.525" y="71.12" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="SWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="6.35" y="40.64" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="SWCH-08261" x="6.35" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="10.16" y="50.165" size="1.778" layer="27" ratio="10" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="PTT_V+">
 <contactref element="Q1" pad="3"/>
 <contactref element="RADIO" pad="4"/>
-<wire x1="11.43" y1="43.18" x2="11.43" y2="39.37" width="0.254" layer="1"/>
-<wire x1="11.43" y1="39.37" x2="13.97" y2="36.83" width="0.254" layer="1"/>
-<wire x1="13.97" y1="36.83" x2="13.97" y2="35.56" width="0.254" layer="1"/>
-<wire x1="13.97" y1="35.56" x2="12.7" y2="34.29" width="0.254" layer="1"/>
-<wire x1="12.7" y1="34.29" x2="11.43" y2="34.29" width="0.254" layer="1"/>
-<wire x1="11.43" y1="34.29" x2="10.16" y2="35.56" width="0.254" layer="1"/>
-<wire x1="10.16" y1="35.56" x2="10.16" y2="38.1" width="0.254" layer="1"/>
-<wire x1="10.16" y1="38.1" x2="5.08" y2="43.18" width="0.254" layer="1"/>
-<wire x1="5.08" y1="43.18" x2="5.08" y2="68.58" width="0.254" layer="1"/>
-<wire x1="5.08" y1="68.58" x2="7.62" y2="71.12" width="0.254" layer="1"/>
-<wire x1="7.62" y1="71.12" x2="11.43" y2="71.12" width="0.254" layer="1"/>
-<wire x1="11.43" y1="71.12" x2="13.97" y2="68.58" width="0.254" layer="1"/>
-<wire x1="13.97" y1="68.58" x2="13.97" y2="67.31" width="0.254" layer="1"/>
-<wire x1="13.97" y1="67.31" x2="12.7" y2="66.04" width="0.254" layer="1"/>
-<wire x1="12.7" y1="66.04" x2="11.43" y2="66.04" width="0.254" layer="1"/>
+<wire x1="11.43" y1="66.04" x2="13.97" y2="68.58" width="0.254" layer="1"/>
+<wire x1="13.97" y1="68.58" x2="13.97" y2="69.85" width="0.254" layer="1"/>
+<wire x1="13.97" y1="69.85" x2="12.7" y2="71.12" width="0.254" layer="1"/>
+<wire x1="12.7" y1="71.12" x2="7.62" y2="71.12" width="0.254" layer="1"/>
+<wire x1="7.62" y1="71.12" x2="5.08" y2="68.58" width="0.254" layer="1"/>
+<wire x1="5.08" y1="68.58" x2="5.08" y2="36.83" width="0.254" layer="1"/>
+<wire x1="5.08" y1="36.83" x2="6.35" y2="35.56" width="0.254" layer="1"/>
+<wire x1="6.35" y1="35.56" x2="11.43" y2="35.56" width="0.254" layer="1"/>
+<wire x1="11.43" y1="35.56" x2="11.43" y2="33.02" width="0.254" layer="1"/>
+<wire x1="11.43" y1="33.02" x2="13.97" y2="33.02" width="0.254" layer="1"/>
+<wire x1="13.97" y1="33.02" x2="13.97" y2="39.37" width="0.254" layer="1"/>
+<wire x1="13.97" y1="39.37" x2="11.43" y2="41.91" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="Q1" pad="1"/>
@@ -794,7 +842,8 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="33.02" y1="35.56" x2="35.56" y2="33.02" width="0.254" layer="16"/>
 <wire x1="35.56" y1="33.02" x2="36.83" y2="33.02" width="0.254" layer="16"/>
 <wire x1="31.75" y1="48.26" x2="31.75" y2="45.72" width="0.254" layer="1"/>
-<wire x1="21.59" y1="50.8" x2="29.21" y2="50.8" width="0.254" layer="1"/>
+<wire x1="21.59" y1="50.8" x2="24.13" y2="50.8" width="0.254" layer="1"/>
+<wire x1="24.13" y1="50.8" x2="29.21" y2="50.8" width="0.254" layer="1"/>
 <wire x1="29.21" y1="50.8" x2="31.75" y2="48.26" width="0.254" layer="1"/>
 <wire x1="16.51" y1="63.5" x2="19.05" y2="63.5" width="0.254" layer="1"/>
 <wire x1="19.05" y1="63.5" x2="20.32" y2="62.23" width="0.254" layer="1"/>
@@ -812,10 +861,6 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="31.75" y1="40.64" x2="33.02" y2="41.91" width="0.254" layer="16"/>
 <wire x1="33.02" y1="41.91" x2="33.02" y2="44.45" width="0.254" layer="16"/>
 <wire x1="33.02" y1="44.45" x2="31.75" y2="45.72" width="0.254" layer="16"/>
-<wire x1="8.89" y1="43.18" x2="8.89" y2="45.72" width="0.254" layer="16"/>
-<wire x1="8.89" y1="45.72" x2="7.62" y2="46.99" width="0.254" layer="16"/>
-<wire x1="7.62" y1="46.99" x2="7.62" y2="62.23" width="0.254" layer="16"/>
-<wire x1="7.62" y1="62.23" x2="8.89" y2="63.5" width="0.254" layer="16"/>
 <polygon width="0.254" layer="16">
 <vertex x="3.81" y="30.48"/>
 <vertex x="3.81" y="80.01"/>
@@ -828,15 +873,18 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <vertex x="39.37" y="80.01"/>
 <vertex x="39.37" y="30.48"/>
 </polygon>
+<wire x1="11.43" y1="44.45" x2="13.97" y2="46.99" width="0.254" layer="1"/>
+<wire x1="13.97" y1="46.99" x2="22.86" y2="46.99" width="0.254" layer="1"/>
+<wire x1="22.86" y1="46.99" x2="24.13" y2="48.26" width="0.254" layer="1"/>
+<wire x1="24.13" y1="48.26" x2="24.13" y2="50.8" width="0.254" layer="1"/>
 </signal>
 <signal name="D3">
 <contactref element="Q1" pad="2"/>
 <contactref element="R9" pad="P$1"/>
-<wire x1="10.16" y1="45.085" x2="13.335" y2="45.085" width="0.254" layer="1"/>
-<wire x1="13.335" y1="45.085" x2="13.97" y2="44.45" width="0.254" layer="1"/>
-<wire x1="13.97" y1="44.45" x2="17.78" y2="44.45" width="0.254" layer="1"/>
 <wire x1="17.78" y1="44.45" x2="19.05" y2="45.72" width="0.254" layer="1"/>
 <wire x1="19.05" y1="45.72" x2="21.59" y2="45.72" width="0.254" layer="1"/>
+<wire x1="17.78" y1="44.45" x2="14.605" y2="44.45" width="0.254" layer="1"/>
+<wire x1="14.605" y1="44.45" x2="13.335" y2="43.18" width="0.254" layer="1"/>
 </signal>
 <signal name="LINE_LEVEL_IN">
 <contactref element="C3" pad="1"/>
@@ -847,10 +895,10 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="24.13" y1="31.75" x2="19.05" y2="36.83" width="0.254" layer="16"/>
 <wire x1="19.05" y1="36.83" x2="15.24" y2="36.83" width="0.254" layer="16"/>
 <wire x1="15.24" y1="36.83" x2="11.43" y2="40.64" width="0.254" layer="16"/>
-<wire x1="11.43" y1="40.64" x2="7.62" y2="40.64" width="0.254" layer="16"/>
-<wire x1="7.62" y1="40.64" x2="6.35" y2="41.91" width="0.254" layer="16"/>
-<wire x1="6.35" y1="41.91" x2="6.35" y2="66.04" width="0.254" layer="16"/>
-<wire x1="6.35" y1="66.04" x2="8.89" y2="68.58" width="0.254" layer="16"/>
+<wire x1="11.43" y1="40.64" x2="10.16" y2="40.64" width="0.254" layer="16"/>
+<wire x1="8.89" y1="68.58" x2="7.62" y2="67.31" width="0.254" layer="16"/>
+<wire x1="7.62" y1="67.31" x2="7.62" y2="43.18" width="0.254" layer="16"/>
+<wire x1="7.62" y1="43.18" x2="10.16" y2="40.64" width="0.254" layer="16"/>
 </signal>
 <signal name="A0">
 <contactref element="C3" pad="2"/>
@@ -889,27 +937,24 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="31.75" y1="58.42" x2="34.29" y2="55.88" width="0.254" layer="1"/>
 <wire x1="34.29" y1="55.88" x2="34.29" y2="53.34" width="0.254" layer="1"/>
 <wire x1="34.29" y1="53.34" x2="31.75" y2="50.8" width="0.254" layer="1"/>
-<wire x1="10.16" y1="31.75" x2="27.94" y2="31.75" width="0.254" layer="1"/>
 <wire x1="27.94" y1="31.75" x2="29.21" y2="33.02" width="0.254" layer="1"/>
 <wire x1="29.21" y1="33.02" x2="29.21" y2="35.56" width="0.254" layer="1"/>
 <wire x1="29.21" y1="35.56" x2="27.94" y2="36.83" width="0.254" layer="1"/>
-<wire x1="8.89" y1="36.83" x2="8.89" y2="33.02" width="0.254" layer="1"/>
-<wire x1="8.89" y1="33.02" x2="10.16" y2="31.75" width="0.254" layer="1"/>
 <wire x1="27.94" y1="36.83" x2="27.94" y2="41.91" width="0.254" layer="1"/>
 <wire x1="27.94" y1="41.91" x2="30.48" y2="44.45" width="0.254" layer="1"/>
 <wire x1="30.48" y1="44.45" x2="33.02" y2="44.45" width="0.254" layer="1"/>
 <wire x1="33.02" y1="44.45" x2="34.29" y2="45.72" width="0.254" layer="1"/>
 <wire x1="34.29" y1="45.72" x2="34.29" y2="48.26" width="0.254" layer="1"/>
 <wire x1="34.29" y1="48.26" x2="31.75" y2="50.8" width="0.254" layer="1"/>
+<wire x1="27.94" y1="31.75" x2="11.43" y2="31.75" width="0.254" layer="1"/>
+<wire x1="11.43" y1="31.75" x2="10.16" y2="33.02" width="0.254" layer="1"/>
+<wire x1="10.16" y1="33.02" x2="10.16" y2="34.29" width="0.254" layer="1"/>
 </signal>
 <signal name="LINE_LEVEL_OUT">
 <contactref element="C2" pad="1"/>
 <contactref element="R5" pad="P$1"/>
 <contactref element="RADIO" pad="2"/>
 <wire x1="21.59" y1="55.88" x2="19.05" y2="55.88" width="0.254" layer="1"/>
-<wire x1="11.43" y1="36.83" x2="11.43" y2="38.1" width="0.254" layer="1"/>
-<wire x1="11.43" y1="38.1" x2="6.35" y2="43.18" width="0.254" layer="1"/>
-<wire x1="6.35" y1="43.18" x2="6.35" y2="52.07" width="0.254" layer="1"/>
 <wire x1="6.35" y1="52.07" x2="8.89" y2="54.61" width="0.254" layer="1"/>
 <wire x1="8.89" y1="54.61" x2="17.78" y2="54.61" width="0.254" layer="1"/>
 <wire x1="17.78" y1="54.61" x2="19.05" y2="55.88" width="0.254" layer="1"/>
@@ -918,17 +963,20 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="6.35" y1="66.04" x2="7.62" y2="67.31" width="0.254" layer="1"/>
 <wire x1="7.62" y1="67.31" x2="10.16" y2="67.31" width="0.254" layer="1"/>
 <wire x1="10.16" y1="67.31" x2="11.43" y2="68.58" width="0.254" layer="1"/>
+<wire x1="12.7" y1="34.29" x2="12.7" y2="36.83" width="0.254" layer="1"/>
+<wire x1="12.7" y1="36.83" x2="10.16" y2="39.37" width="0.254" layer="1"/>
+<wire x1="10.16" y1="39.37" x2="10.16" y2="46.99" width="0.254" layer="1"/>
+<wire x1="10.16" y1="46.99" x2="6.35" y2="50.8" width="0.254" layer="1"/>
+<wire x1="6.35" y1="50.8" x2="6.35" y2="52.07" width="0.254" layer="1"/>
 </signal>
 <signal name="MIC_LEVEL_OUT">
 <contactref element="R5" pad="P$2"/>
 <contactref element="R6" pad="P$2"/>
 <contactref element="RADIO" pad="3"/>
 <wire x1="31.75" y1="55.88" x2="31.75" y2="53.34" width="0.254" layer="1"/>
-<wire x1="13.97" y1="43.18" x2="15.24" y2="41.91" width="0.254" layer="16"/>
 <wire x1="38.1" y1="39.37" x2="38.1" y2="52.07" width="0.254" layer="16"/>
 <wire x1="38.1" y1="52.07" x2="33.02" y2="52.07" width="0.254" layer="16"/>
 <wire x1="33.02" y1="52.07" x2="31.75" y2="53.34" width="0.254" layer="16"/>
-<wire x1="13.97" y1="43.18" x2="13.97" y2="58.42" width="0.254" layer="16"/>
 <wire x1="13.97" y1="58.42" x2="10.16" y2="62.23" width="0.254" layer="16"/>
 <wire x1="10.16" y1="62.23" x2="10.16" y2="64.77" width="0.254" layer="16"/>
 <wire x1="10.16" y1="64.77" x2="8.89" y2="66.04" width="0.254" layer="16"/>
@@ -939,6 +987,9 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="17.78" y1="41.91" x2="19.05" y2="40.64" width="0.254" layer="16"/>
 <wire x1="19.05" y1="40.64" x2="19.05" y2="39.37" width="0.254" layer="16"/>
 <wire x1="19.05" y1="39.37" x2="20.32" y2="38.1" width="0.254" layer="16"/>
+<wire x1="13.97" y1="58.42" x2="13.97" y2="45.72" width="0.254" layer="16"/>
+<wire x1="13.97" y1="45.72" x2="15.24" y2="44.45" width="0.254" layer="16"/>
+<wire x1="15.24" y1="44.45" x2="15.24" y2="41.91" width="0.254" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R8" pad="P$1"/>
@@ -1020,6 +1071,18 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="34.29" y1="66.04" x2="34.29" y2="57.15" width="0.254" layer="1"/>
 <wire x1="34.29" y1="57.15" x2="35.56" y2="55.88" width="0.254" layer="1"/>
 <wire x1="35.56" y1="55.88" x2="36.83" y2="55.88" width="0.254" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="SWITCH" pad="2"/>
+<contactref element="POWER" pad="2"/>
+<wire x1="6.35" y1="74.93" x2="5.08" y2="73.66" width="0.254" layer="16"/>
+<wire x1="5.08" y1="73.66" x2="5.08" y2="41.91" width="0.254" layer="16"/>
+<wire x1="5.08" y1="41.91" x2="6.35" y2="40.64" width="0.254" layer="16"/>
+</signal>
+<signal name="SWITCH">
+<contactref element="SWITCH" pad="3"/>
+<contactref element="POWER" pad="1"/>
+<wire x1="6.35" y1="72.39" x2="6.35" y2="43.18" width="0.254" layer="16"/>
 </signal>
 </signals>
 </board>
