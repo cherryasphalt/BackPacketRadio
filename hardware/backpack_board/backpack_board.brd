@@ -142,8 +142,6 @@
 </layers>
 <board>
 <plain>
-<hole x="12.7" y="76.2" drill="3.2"/>
-<hole x="29.21" y="76.2" drill="3.2"/>
 <wire x1="3.81" y1="33.02" x2="3.81" y2="77.47" width="0.2032" layer="20"/>
 <wire x1="3.81" y1="77.47" x2="6.35" y2="80.01" width="0.2032" layer="20" curve="-90"/>
 <wire x1="6.35" y1="80.01" x2="36.83" y2="80.01" width="0.2032" layer="20"/>
@@ -152,6 +150,31 @@
 <wire x1="39.37" y1="33.02" x2="36.83" y2="30.48" width="0.2032" layer="20" curve="-90"/>
 <wire x1="36.83" y1="30.48" x2="6.35" y2="30.48" width="0.2032" layer="20"/>
 <wire x1="6.35" y1="30.48" x2="3.81" y2="33.02" width="0.2032" layer="20" curve="-90"/>
+<hole x="8.89" y="77.47" drill="2.5"/>
+<hole x="34.29" y="77.47" drill="2.5"/>
+<text x="13.97" y="77.47" size="1.27" layer="21" font="vector" align="center-left">texture.systems</text>
+<text x="24.13" y="63.5" size="0.8128" layer="21" font="vector" align="center-left">R2</text>
+<text x="24.13" y="60.96" size="0.8128" layer="21" font="vector" align="center-left">R3</text>
+<text x="24.13" y="58.42" size="0.8128" layer="21" font="vector" align="center-left">R4</text>
+<text x="24.13" y="55.88" size="0.8128" layer="21" font="vector" align="center-left">R5</text>
+<text x="24.13" y="53.34" size="0.8128" layer="21" font="vector" align="center-left">R6</text>
+<text x="24.13" y="50.8" size="0.8128" layer="21" font="vector" align="center-left">R7</text>
+<text x="24.13" y="66.04" size="0.8128" layer="21" font="vector" align="center-left">R1</text>
+<text x="24.13" y="48.26" size="0.8128" layer="21" font="vector" align="center-left">R8</text>
+<text x="24.13" y="45.72" size="0.8128" layer="21" font="vector" align="center-left">R9</text>
+<text x="24.13" y="43.18" size="0.8128" layer="21" font="vector" align="center-left">R10</text>
+<text x="24.13" y="40.64" size="0.8128" layer="21" font="vector" align="center-left">R11</text>
+<text x="6.35" y="57.15" size="0.8128" layer="21" font="vector" align="center-left">RX</text>
+<text x="6.35" y="50.8" size="0.8128" layer="21" font="vector" align="center-left">TX</text>
+<text x="8.89" y="60.96" size="0.8128" layer="21" font="vector" align="center-left">GND</text>
+<text x="5.08" y="66.04" size="0.8128" layer="21" font="vector" align="center-left">MIC
+IN</text>
+<text x="7.62" y="71.12" size="0.8128" layer="21" font="vector" align="center-left">LINE
+IN</text>
+<text x="11.43" y="71.12" size="0.8128" layer="21" font="vector" align="center-left">LINE
+OUT</text>
+<text x="12.7" y="66.04" size="0.8128" layer="21" font="vector" align="center-left">PTT</text>
+<text x="13.97" y="74.93" size="1.27" layer="21" font="vector" align="center-left">backpacket v1.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -219,6 +242,43 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
+<package name="OSHW-LOGO-M">
+<polygon width="0.0762" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -639,34 +699,66 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="1uF" x="27.94" y="34.29" rot="R180"/>
 <element name="C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="100nF" x="27.94" y="36.83" rot="R180"/>
 <element name="C2" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="4.7uF" x="10.16" y="36.83"/>
-<element name="TX" library="SparkFun-LED" package="LED3MM" value="" x="10.16" y="50.8"/>
-<element name="RX" library="SparkFun-LED" package="LED3MM" value="" x="10.16" y="57.15"/>
+<element name="TX" library="SparkFun-LED" package="LED3MM" value="" x="10.16" y="50.8" smashed="yes">
+<attribute name="VALUE" x="12.065" y="49.149" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="RX" library="SparkFun-LED" package="LED3MM" value="" x="10.16" y="57.15" smashed="yes">
+<attribute name="VALUE" x="12.065" y="55.499" size="1.27" layer="27" ratio="10"/>
+</element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-49.53" y="43.18">
 <attribute name="VERSION" value="v01" x="-49.53" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="DESIGNER" value="Nobody" x="-49.53" y="43.18" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LEFT" library="SparkFun-Connectors" package="1X16" value="" x="16.51" y="33.02" rot="R90"/>
-<element name="RIGHT" library="SparkFun-Connectors" package="1X16" value="" x="36.83" y="33.02" rot="R90"/>
-<element name="JP3" library="SparkFun-Connectors" package="2X3" value="FEMALE 2x3" x="8.89" y="68.58" rot="R270">
-<attribute name="PROD_ID" value="CONN-11566" x="8.89" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LEFT" library="SparkFun-Connectors" package="1X16" value="" x="16.51" y="33.02" smashed="yes" rot="R90">
+<attribute name="VALUE" x="19.685" y="31.75" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="MOSFET-NCHANNEL2N7000" x="10.16" y="43.18"/>
-<element name="R9" library="SparkFun-Passives" package="AXIAL-0.4" value="10K" x="26.67" y="45.72"/>
-<element name="R7" library="SparkFun-Passives" package="AXIAL-0.4" value="270" x="26.67" y="50.8"/>
-<element name="R8" library="SparkFun-Passives" package="AXIAL-0.4" value="270" x="26.67" y="48.26"/>
-<element name="R10" library="SparkFun-Passives" package="AXIAL-0.4" value="100K" x="26.67" y="43.18"/>
-<element name="R1" library="SparkFun-Passives" package="AXIAL-0.4" value="1K" x="26.67" y="66.04"/>
-<element name="R11" library="SparkFun-Passives" package="AXIAL-0.4" value="100K" x="26.67" y="40.64"/>
-<element name="R2" library="SparkFun-Passives" package="AXIAL-0.4" value="2K2" x="26.67" y="63.5"/>
-<element name="R3" library="SparkFun-Passives" package="AXIAL-0.4" value="3K9" x="26.67" y="60.96"/>
-<element name="R4" library="SparkFun-Passives" package="AXIAL-0.4" value="8K2" x="26.67" y="58.42"/>
-<element name="R5" library="SparkFun-Passives" package="AXIAL-0.4" value="100k" x="26.67" y="55.88"/>
-<element name="R6" library="SparkFun-Passives" package="AXIAL-0.4" value="1k" x="26.67" y="53.34"/>
+<element name="RIGHT" library="SparkFun-Connectors" package="1X16" value="" x="36.83" y="33.02" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.005" y="31.75" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="RADIO" library="SparkFun-Connectors" package="2X3" value="" x="8.89" y="68.58" smashed="yes" rot="R270">
+<attribute name="PROD_ID" value="CONN-11566" x="8.89" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="5.715" y="69.85" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="MOSFET-NCHANNEL2N7000" x="10.16" y="43.18" smashed="yes"/>
+<element name="R9" library="SparkFun-Passives" package="AXIAL-0.4" value="10K" x="26.67" y="45.72" smashed="yes">
+<attribute name="VALUE" x="26.924" y="45.339" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R7" library="SparkFun-Passives" package="AXIAL-0.4" value="270" x="26.67" y="50.8" smashed="yes">
+<attribute name="VALUE" x="26.924" y="50.419" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R8" library="SparkFun-Passives" package="AXIAL-0.4" value="270" x="26.67" y="48.26" smashed="yes">
+<attribute name="VALUE" x="26.924" y="47.879" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R10" library="SparkFun-Passives" package="AXIAL-0.4" value="100K" x="26.67" y="43.18" smashed="yes">
+<attribute name="VALUE" x="26.924" y="42.799" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R1" library="SparkFun-Passives" package="AXIAL-0.4" value="1K" x="26.67" y="66.04" smashed="yes">
+<attribute name="VALUE" x="26.924" y="65.659" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R11" library="SparkFun-Passives" package="AXIAL-0.4" value="100K" x="26.67" y="40.64" smashed="yes">
+<attribute name="VALUE" x="26.924" y="40.259" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R2" library="SparkFun-Passives" package="AXIAL-0.4" value="2K2" x="26.67" y="63.5" smashed="yes">
+<attribute name="VALUE" x="26.924" y="63.119" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R3" library="SparkFun-Passives" package="AXIAL-0.4" value="3K9" x="26.67" y="60.96" smashed="yes">
+<attribute name="VALUE" x="26.924" y="60.579" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R4" library="SparkFun-Passives" package="AXIAL-0.4" value="8K2" x="26.67" y="58.42" smashed="yes">
+<attribute name="VALUE" x="26.924" y="58.039" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R5" library="SparkFun-Passives" package="AXIAL-0.4" value="100K" x="26.67" y="55.88" smashed="yes">
+<attribute name="VALUE" x="26.924" y="55.499" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="R6" library="SparkFun-Passives" package="AXIAL-0.4" value="1K" x="26.67" y="53.34" smashed="yes">
+<attribute name="VALUE" x="26.924" y="52.959" size="0.8128" layer="21" font="vector" ratio="15"/>
+</element>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="26.67" y="69.85"/>
 </elements>
 <signals>
 <signal name="PTT_V+">
 <contactref element="Q1" pad="3"/>
-<contactref element="JP3" pad="4"/>
+<contactref element="RADIO" pad="4"/>
 <wire x1="11.43" y1="43.18" x2="11.43" y2="39.37" width="0.254" layer="1"/>
 <wire x1="11.43" y1="39.37" x2="13.97" y2="36.83" width="0.254" layer="1"/>
 <wire x1="13.97" y1="36.83" x2="13.97" y2="35.56" width="0.254" layer="1"/>
@@ -693,8 +785,8 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <contactref element="R8" pad="P$2"/>
 <contactref element="RIGHT" pad="1"/>
 <contactref element="LEFT" pad="13"/>
-<contactref element="JP3" pad="5"/>
-<contactref element="JP3" pad="6"/>
+<contactref element="RADIO" pad="5"/>
+<contactref element="RADIO" pad="6"/>
 <wire x1="31.75" y1="40.64" x2="31.75" y2="38.1" width="0.254" layer="1"/>
 <wire x1="31.75" y1="38.1" x2="36.83" y2="33.02" width="0.254" layer="1"/>
 <wire x1="25.4" y1="36.83" x2="26.67" y2="35.56" width="0.254" layer="16"/>
@@ -748,7 +840,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 </signal>
 <signal name="LINE_LEVEL_IN">
 <contactref element="C3" pad="1"/>
-<contactref element="JP3" pad="1"/>
+<contactref element="RADIO" pad="1"/>
 <wire x1="27.94" y1="34.29" x2="27.94" y2="33.02" width="0.254" layer="16"/>
 <wire x1="27.94" y1="33.02" x2="26.67" y2="31.75" width="0.254" layer="16"/>
 <wire x1="26.67" y1="31.75" x2="24.13" y2="31.75" width="0.254" layer="16"/>
@@ -813,9 +905,8 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <signal name="LINE_LEVEL_OUT">
 <contactref element="C2" pad="1"/>
 <contactref element="R5" pad="P$1"/>
-<contactref element="JP3" pad="2"/>
+<contactref element="RADIO" pad="2"/>
 <wire x1="21.59" y1="55.88" x2="19.05" y2="55.88" width="0.254" layer="1"/>
-<wire x1="10.16" y1="67.31" x2="11.43" y2="68.58" width="0.254" layer="1"/>
 <wire x1="11.43" y1="36.83" x2="11.43" y2="38.1" width="0.254" layer="1"/>
 <wire x1="11.43" y1="38.1" x2="6.35" y2="43.18" width="0.254" layer="1"/>
 <wire x1="6.35" y1="43.18" x2="6.35" y2="52.07" width="0.254" layer="1"/>
@@ -826,11 +917,12 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="6.35" y1="57.15" x2="6.35" y2="66.04" width="0.254" layer="1"/>
 <wire x1="6.35" y1="66.04" x2="7.62" y2="67.31" width="0.254" layer="1"/>
 <wire x1="7.62" y1="67.31" x2="10.16" y2="67.31" width="0.254" layer="1"/>
+<wire x1="10.16" y1="67.31" x2="11.43" y2="68.58" width="0.254" layer="1"/>
 </signal>
 <signal name="MIC_LEVEL_OUT">
 <contactref element="R5" pad="P$2"/>
 <contactref element="R6" pad="P$2"/>
-<contactref element="JP3" pad="3"/>
+<contactref element="RADIO" pad="3"/>
 <wire x1="31.75" y1="55.88" x2="31.75" y2="53.34" width="0.254" layer="1"/>
 <wire x1="13.97" y1="43.18" x2="15.24" y2="41.91" width="0.254" layer="16"/>
 <wire x1="38.1" y1="39.37" x2="38.1" y2="52.07" width="0.254" layer="16"/>
@@ -880,13 +972,13 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="8.89" y1="57.15" x2="11.43" y2="59.69" width="0.254" layer="1"/>
 <wire x1="38.1" y1="69.85" x2="38.1" y2="62.23" width="0.254" layer="1"/>
 <wire x1="38.1" y1="62.23" x2="36.83" y2="60.96" width="0.254" layer="1"/>
-<wire x1="20.32" y1="69.85" x2="38.1" y2="69.85" width="0.254" layer="1"/>
 <wire x1="20.32" y1="69.85" x2="17.78" y2="67.31" width="0.254" layer="1"/>
 <wire x1="11.43" y1="59.69" x2="11.43" y2="60.96" width="0.254" layer="1"/>
 <wire x1="11.43" y1="60.96" x2="13.97" y2="63.5" width="0.254" layer="1"/>
 <wire x1="13.97" y1="63.5" x2="13.97" y2="66.04" width="0.254" layer="1"/>
 <wire x1="15.24" y1="67.31" x2="17.78" y2="67.31" width="0.254" layer="1"/>
 <wire x1="13.97" y1="66.04" x2="15.24" y2="67.31" width="0.254" layer="1"/>
+<wire x1="20.32" y1="69.85" x2="38.1" y2="69.85" width="0.254" layer="1"/>
 </signal>
 <signal name="D5">
 <contactref element="R4" pad="P$1"/>
@@ -932,4 +1024,10 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
