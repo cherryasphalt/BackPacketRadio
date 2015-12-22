@@ -141,10 +141,10 @@ void setup() {
 }
 
 void loop() {
-  char n, inputs[BUFSIZE+1];
+  //char n, inputs[BUFSIZE+1];
 
-  //delay(500);
-  processPacket();
+  delay(2000);
+  /*processPacket();
 
   boolean hasMessage = false;
   for (int i = 0; ble.available() && i < BUFSIZE && currentQueueSize < QUEUESIZE; i++) {
@@ -153,6 +153,10 @@ void loop() {
     hasMessage = true;
   }
   if (hasMessage)
-    currentQueueSize++;
-    //APRS_sendMsg(writeBuffer, strlen(writeBuffer));
+    currentQueueSize++;*/
+  //APRS_sendMsg(writeBuffer, strlen(writeBuffer));
+  //Serial.println("hello world");
+  char* helloWorld = "Lorem Ipsum is simply dummy text of the printing and typesetting industry";
+  APRS_sendMsg(helloWorld, strlen(helloWorld));
+  Serial.println(helloWorld);
 }
